@@ -1,26 +1,16 @@
-# PRODIGY_SD_02
+his is Task 2 of my Software Development Internship at Prodigy InfoTech.
 
-import random
+🕹️ About the Game
+This is a Python-based number guessing game that:
 
-
-n = random.randint(1, 100)
-
-a = -1  
-guesses = 1 
-
-print("Welcome to the Guessing Game!")
-print("Guess the number between 1 and 100")
-
-
-while a != n:
-    a = int(input("Guess the number: "))
-
-    if a > n:
-        print("Too high! Try a lower number.")
-        guesses += 1
-    elif a < n:
-        print("Too low! Try a higher number.")
-        guesses += 1
-
-
-print(f" You guessed the number {n} correctly in {guesses} attempts!")
+Generates a random number between 1 and 100
+Asks the user to guess the number
+Gives feedback: whether the guess is too high or too low
+Continues until the correct number is guessed
+Displays the total number of attempts
+📁 File
+guessing.game.py – Main Python file containing the game logic
+✅ How to Run
+python guessing.game.py
+About
+: 🎯 A Python-based Guessing Game created as part of my Software Development Internship at Prodigy InfoTech. The program generates a random number between 1 and 100 and gives feedback on whether the user's guess is too high or too low. It continues until the correct guess is made and shows the number of attempt
